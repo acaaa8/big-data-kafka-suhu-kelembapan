@@ -1,21 +1,33 @@
-| Nama | NRP | Kelas |
-|---------|---------|---------|
-| Fadlillah Cantika Sari Hermawan  | 5027231042  | A |
+# TUGAS BIG DATA A PROBLEM BASED LEARNING : APACHE KAFKA
 
-Soal :
+| Nama                          | NRP        | Kelas |
+|-------------------------------|------------|-------|
+| Fadlillah Cantika Sari Hermawan | 5027231042 | A     |
 
-1. Buat Topik Kafka
-- sensor-suhu-gudang
-- sensor-kelembaban-gudang
+---
 
-2. Simulasikan Data Sensor (Producer Kafka)
-a. Producer Suhu ---> Kirim data setiap detik dengan format: {"gudang_id": "G1", "suhu": 82}
-b. Producer Kelembaban ---> Kirim data setiap detik dengan format: {"gudang_id": "G1", "kelembaban": 75}
+## Soal :
 
-3. Konsumsi dan Olah Data dengan PySpark
-a. Buat PySpark Consumer
+### 1. Buat Topik Kafka
+- `sensor-suhu-gudang`  
+- `sensor-kelembaban-gudang`
+
+### 2. Simulasikan Data Sensor (Producer Kafka)
+a. Producer Suhu  
+&emsp;&emsp;Kirim data setiap detik dengan format:  
+&emsp;&emsp;`{"gudang_id": "G1", "suhu": 82}`
+
+b. Producer Kelembaban  
+&emsp;&emsp;Kirim data setiap detik dengan format:  
+&emsp;&emsp;`{"gudang_id": "G1", "kelembaban": 75}`
+
+### 3. Konsumsi dan Olah Data dengan PySpark
+a. Buat PySpark Consumer  
 b. Lakukan Filtering
 
-4. Gabungkan Stream dari Dua Sensor
+### 4. Gabungkan Stream dari Dua Sensor
 
+---
+
+#LANGKAH PENGERJAAN
 
