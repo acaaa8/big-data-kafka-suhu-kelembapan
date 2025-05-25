@@ -29,6 +29,4 @@ b. Lakukan Filtering
 
 ---
 
-#LANGKAH PENGERJAAN
 
-### 1. Install Spark dan Apache Kafka terlebih dahulu. 
